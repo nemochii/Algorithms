@@ -12,28 +12,25 @@ class QueueLinked_list():
 		self.backval = newnode
 
 	def Pop(self):
-		if self.headval == None:
-			print ("The queue is empty!")
+		if self.IsEmpty():
 			return
 		self.headval = self.headval.next
 
 	def getFront(self):
-		if self.headval == None:
-			print ("The queue is empty!")
+		if self.IsEmpty():
 			return
 		print (self.headval.val)
 
 	def getBack(self):
-		if self.headval == None:
-			print ("The queue is empty!")
+		if self.IsEmpty():
 			return
 		print (self.backval.val)
 
 	def IsEmpty(self):
 		if self.headval == None:
 			print ("The queue is empty!")
-			return
-		print ("The queue is not empty!")
+			return (True)
+		return (False)
 
 	def getSize(self):
 		count = 0

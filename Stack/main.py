@@ -1,4 +1,3 @@
-"""
 from stackarray import StackArray
 
 s = StackArray(5)
@@ -12,8 +11,10 @@ s.Pop()
 s.getSize()
 
 s.Top()
-"""
 
+s.getmin()
+
+"""
 from stacklinked_list import StackLinked_list
 
 s = StackLinked_list(5)
@@ -25,5 +26,7 @@ s.Pop()
 
 s.Top()
 
-s.IsEmpty()
 s.getSize()
+
+s.getmin()
+"""
