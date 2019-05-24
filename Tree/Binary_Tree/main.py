@@ -1,4 +1,4 @@
-from ImplementTree import BinaryTree, TreeNode
+from binaryTree import BinaryTree, TreeNode
 
 Tree = ["A", "B", "C", "D", "E", "F", "x", "x", "x", "G", "H", "x", "I"]
 
